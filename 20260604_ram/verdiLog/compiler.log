@@ -1,0 +1,13 @@
+*design* DebussyLib (btIdent Verdi_X-2025.06-1)
+Command arguments:
+    +define+verilog
+    /home/pedu21/Workspace/20260604_ram/tb_fifo_sv.sv
+    /home/pedu21/Workspace/20260604_ram/fifo_sv.sv
+    /home/pedu21/Workspace/20260604_ram/ram_ip.sv
+    -sv
+
+Highest level modules:
+tb_fifo_sv
+fifo_sv
+
+Total	0 error(s),   0 warning(s)

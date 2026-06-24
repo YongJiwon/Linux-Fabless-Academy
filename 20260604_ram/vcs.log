@@ -1,0 +1,252 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP2_Full64; Runtime version W-2024.09-SP2_Full64;  Jun  4 16:45 2026
+*Verdi* Loading libsscore_vcs202409.so
+FSDB Dumper for VCS, Release Verdi_X-2025.06-1, Linux x86_64/64bit, 07/19/2025
+(C) 1996 - 2025 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'tb_fifo_sv.fsdb'
+*Verdi* : Begin traversing the scope (tb_fifo_sv), layer (0).
+*Verdi* : End of traversing.
+                   0 : [GEN] addr = 152, wdata = 137, we = 1, rdata =   0
+                   0 : [DRV] addr = 152, wdata = 137, we = 1, rdata =   0
+               16000 : [MON] addr = 152, wdata = 137, we = 1, rdata = 137
+               16000 : [SCB] addr = 152, wdata = 137, we = 1, rdata = 137
+               16000 : [SCB] WRITE PASS (addr=152, data=137)
+               16000 : [GEN] addr = 213, wdata = 225, we = 1, rdata =   0
+               16000 : [DRV] addr = 213, wdata = 225, we = 1, rdata =   0
+               26000 : [MON] addr = 213, wdata = 225, we = 1, rdata =   0
+               26000 : [SCB] addr = 213, wdata = 225, we = 1, rdata =   0
+               26000 : [SCB] WRITE PASS (addr=213, data=225)
+               26000 : [GEN] addr =   6, wdata = 225, we = 0, rdata =   0
+               26000 : [DRV] addr =   6, wdata = 225, we = 0, rdata =   0
+               36000 : [MON] addr =   6, wdata = 225, we = 0, rdata =   0
+               36000 : [SCB] addr =   6, wdata = 225, we = 0, rdata =   0
+               36000 : [SCB] READ PASS
+               36000 : [GEN] addr = 251, wdata = 154, we = 0, rdata =   0
+               36000 : [DRV] addr = 251, wdata = 154, we = 0, rdata =   0
+               46000 : [MON] addr = 251, wdata = 154, we = 0, rdata =   0
+               46000 : [SCB] addr = 251, wdata = 154, we = 0, rdata =   0
+               46000 : [SCB] READ PASS
+               46000 : [GEN] addr =  46, wdata =  85, we = 1, rdata =   0
+               46000 : [DRV] addr =  46, wdata =  85, we = 1, rdata =   0
+               56000 : [MON] addr =  46, wdata =  85, we = 1, rdata =   0
+               56000 : [SCB] addr =  46, wdata =  85, we = 1, rdata =   0
+               56000 : [SCB] WRITE PASS (addr= 46, data= 85)
+               56000 : [GEN] addr = 245, wdata = 163, we = 1, rdata =   0
+               56000 : [DRV] addr = 245, wdata = 163, we = 1, rdata =   0
+               66000 : [MON] addr = 245, wdata = 163, we = 1, rdata =   0
+               66000 : [SCB] addr = 245, wdata = 163, we = 1, rdata =   0
+               66000 : [SCB] WRITE PASS (addr=245, data=163)
+               66000 : [GEN] addr = 181, wdata = 160, we = 1, rdata =   0
+               66000 : [DRV] addr = 181, wdata = 160, we = 1, rdata =   0
+               76000 : [MON] addr = 181, wdata = 160, we = 1, rdata =   0
+               76000 : [SCB] addr = 181, wdata = 160, we = 1, rdata =   0
+               76000 : [SCB] WRITE PASS (addr=181, data=160)
+               76000 : [GEN] addr =  76, wdata = 103, we = 0, rdata =   0
+               76000 : [DRV] addr =  76, wdata = 103, we = 0, rdata =   0
+               86000 : [MON] addr =  76, wdata = 103, we = 0, rdata =   0
+               86000 : [SCB] addr =  76, wdata = 103, we = 0, rdata =   0
+               86000 : [SCB] READ PASS
+               86000 : [GEN] addr = 246, wdata = 106, we = 1, rdata =   0
+               86000 : [DRV] addr = 246, wdata = 106, we = 1, rdata =   0
+               96000 : [MON] addr = 246, wdata = 106, we = 1, rdata =   0
+               96000 : [SCB] addr = 246, wdata = 106, we = 1, rdata =   0
+               96000 : [SCB] WRITE PASS (addr=246, data=106)
+               96000 : [GEN] addr =  18, wdata = 197, we = 1, rdata =   0
+               96000 : [DRV] addr =  18, wdata = 197, we = 1, rdata =   0
+              106000 : [MON] addr =  18, wdata = 197, we = 1, rdata =   0
+              106000 : [SCB] addr =  18, wdata = 197, we = 1, rdata =   0
+              106000 : [SCB] WRITE PASS (addr= 18, data=197)
+              106000 : [GEN] addr = 254, wdata =  59, we = 0, rdata =   0
+              106000 : [DRV] addr = 254, wdata =  59, we = 0, rdata =   0
+              116000 : [MON] addr = 254, wdata =  59, we = 0, rdata =   0
+              116000 : [SCB] addr = 254, wdata =  59, we = 0, rdata =   0
+              116000 : [SCB] READ PASS
+              116000 : [GEN] addr = 236, wdata = 175, we = 1, rdata =   0
+              116000 : [DRV] addr = 236, wdata = 175, we = 1, rdata =   0
+              126000 : [MON] addr = 236, wdata = 175, we = 1, rdata =   0
+              126000 : [SCB] addr = 236, wdata = 175, we = 1, rdata =   0
+              126000 : [SCB] WRITE PASS (addr=236, data=175)
+              126000 : [GEN] addr = 143, wdata = 163, we = 0, rdata =   0
+              126000 : [DRV] addr = 143, wdata = 163, we = 0, rdata =   0
+              136000 : [MON] addr = 143, wdata = 163, we = 0, rdata =   0
+              136000 : [SCB] addr = 143, wdata = 163, we = 0, rdata =   0
+              136000 : [SCB] READ PASS
+              136000 : [GEN] addr = 182, wdata = 231, we = 1, rdata =   0
+              136000 : [DRV] addr = 182, wdata = 231, we = 1, rdata =   0
+              146000 : [MON] addr = 182, wdata = 231, we = 1, rdata =   0
+              146000 : [SCB] addr = 182, wdata = 231, we = 1, rdata =   0
+              146000 : [SCB] WRITE PASS (addr=182, data=231)
+              146000 : [GEN] addr = 237, wdata = 171, we = 0, rdata =   0
+              146000 : [DRV] addr = 237, wdata = 171, we = 0, rdata =   0
+              156000 : [MON] addr = 237, wdata = 171, we = 0, rdata =   0
+              156000 : [SCB] addr = 237, wdata = 171, we = 0, rdata =   0
+              156000 : [SCB] READ PASS
+              156000 : [GEN] addr = 115, wdata =  54, we = 1, rdata =   0
+              156000 : [DRV] addr = 115, wdata =  54, we = 1, rdata =   0
+              166000 : [MON] addr = 115, wdata =  54, we = 1, rdata =   0
+              166000 : [SCB] addr = 115, wdata =  54, we = 1, rdata =   0
+              166000 : [SCB] WRITE PASS (addr=115, data= 54)
+              166000 : [GEN] addr = 142, wdata =  68, we = 0, rdata =   0
+              166000 : [DRV] addr = 142, wdata =  68, we = 0, rdata =   0
+              176000 : [MON] addr = 142, wdata =  68, we = 0, rdata =   0
+              176000 : [SCB] addr = 142, wdata =  68, we = 0, rdata =   0
+              176000 : [SCB] READ PASS
+              176000 : [GEN] addr =  33, wdata = 231, we = 0, rdata =   0
+              176000 : [DRV] addr =  33, wdata = 231, we = 0, rdata =   0
+              186000 : [MON] addr =  33, wdata = 231, we = 0, rdata =   0
+              186000 : [SCB] addr =  33, wdata = 231, we = 0, rdata =   0
+              186000 : [SCB] READ PASS
+              186000 : [GEN] addr =  11, wdata =  29, we = 0, rdata =   0
+              186000 : [DRV] addr =  11, wdata =  29, we = 0, rdata =   0
+              196000 : [MON] addr =  11, wdata =  29, we = 0, rdata =   0
+              196000 : [SCB] addr =  11, wdata =  29, we = 0, rdata =   0
+              196000 : [SCB] READ PASS
+              196000 : [GEN] addr =  54, wdata = 214, we = 0, rdata =   0
+              196000 : [DRV] addr =  54, wdata = 214, we = 0, rdata =   0
+              206000 : [MON] addr =  54, wdata = 214, we = 0, rdata =   0
+              206000 : [SCB] addr =  54, wdata = 214, we = 0, rdata =   0
+              206000 : [SCB] READ PASS
+              206000 : [GEN] addr =  78, wdata = 183, we = 1, rdata =   0
+              206000 : [DRV] addr =  78, wdata = 183, we = 1, rdata =   0
+              216000 : [MON] addr =  78, wdata = 183, we = 1, rdata =   0
+              216000 : [SCB] addr =  78, wdata = 183, we = 1, rdata =   0
+              216000 : [SCB] WRITE PASS (addr= 78, data=183)
+              216000 : [GEN] addr =  16, wdata = 112, we = 1, rdata =   0
+              216000 : [DRV] addr =  16, wdata = 112, we = 1, rdata =   0
+              226000 : [MON] addr =  16, wdata = 112, we = 1, rdata =   0
+              226000 : [SCB] addr =  16, wdata = 112, we = 1, rdata =   0
+              226000 : [SCB] WRITE PASS (addr= 16, data=112)
+              226000 : [GEN] addr = 132, wdata =  48, we = 1, rdata =   0
+              226000 : [DRV] addr = 132, wdata =  48, we = 1, rdata =   0
+              236000 : [MON] addr = 132, wdata =  48, we = 1, rdata =   0
+              236000 : [SCB] addr = 132, wdata =  48, we = 1, rdata =   0
+              236000 : [SCB] WRITE PASS (addr=132, data= 48)
+              236000 : [GEN] addr = 224, wdata = 153, we = 0, rdata =   0
+              236000 : [DRV] addr = 224, wdata = 153, we = 0, rdata =   0
+              246000 : [MON] addr = 224, wdata = 153, we = 0, rdata =   0
+              246000 : [SCB] addr = 224, wdata = 153, we = 0, rdata =   0
+              246000 : [SCB] READ PASS
+              246000 : [GEN] addr =   7, wdata = 133, we = 0, rdata =   0
+              246000 : [DRV] addr =   7, wdata = 133, we = 0, rdata =   0
+              256000 : [MON] addr =   7, wdata = 133, we = 0, rdata =   0
+              256000 : [SCB] addr =   7, wdata = 133, we = 0, rdata =   0
+              256000 : [SCB] READ PASS
+              256000 : [GEN] addr = 127, wdata = 153, we = 0, rdata =   0
+              256000 : [DRV] addr = 127, wdata = 153, we = 0, rdata =   0
+              266000 : [MON] addr = 127, wdata = 153, we = 0, rdata =   0
+              266000 : [SCB] addr = 127, wdata = 153, we = 0, rdata =   0
+              266000 : [SCB] READ PASS
+              266000 : [GEN] addr = 211, wdata =  33, we = 0, rdata =   0
+              266000 : [DRV] addr = 211, wdata =  33, we = 0, rdata =   0
+              276000 : [MON] addr = 211, wdata =  33, we = 0, rdata =   0
+              276000 : [SCB] addr = 211, wdata =  33, we = 0, rdata =   0
+              276000 : [SCB] READ PASS
+              276000 : [GEN] addr =  46, wdata = 240, we = 0, rdata =   0
+              276000 : [DRV] addr =  46, wdata = 240, we = 0, rdata =   0
+              286000 : [MON] addr =  46, wdata = 240, we = 0, rdata =  85
+              286000 : [SCB] addr =  46, wdata = 240, we = 0, rdata =  85
+              286000 : [SCB] READ PASS
+              286000 : [GEN] addr = 147, wdata =  68, we = 0, rdata =   0
+              286000 : [DRV] addr = 147, wdata =  68, we = 0, rdata =   0
+              296000 : [MON] addr = 147, wdata =  68, we = 0, rdata =   0
+              296000 : [SCB] addr = 147, wdata =  68, we = 0, rdata =   0
+              296000 : [SCB] READ PASS
+              296000 : [GEN] addr = 147, wdata = 162, we = 0, rdata =   0
+              296000 : [DRV] addr = 147, wdata = 162, we = 0, rdata =   0
+              306000 : [MON] addr = 147, wdata = 162, we = 0, rdata =   0
+              306000 : [SCB] addr = 147, wdata = 162, we = 0, rdata =   0
+              306000 : [SCB] READ PASS
+              306000 : [GEN] addr =  11, wdata = 100, we = 1, rdata =   0
+              306000 : [DRV] addr =  11, wdata = 100, we = 1, rdata =   0
+              316000 : [MON] addr =  11, wdata = 100, we = 1, rdata =   0
+              316000 : [SCB] addr =  11, wdata = 100, we = 1, rdata =   0
+              316000 : [SCB] WRITE PASS (addr= 11, data=100)
+              316000 : [GEN] addr =  93, wdata = 249, we = 0, rdata =   0
+              316000 : [DRV] addr =  93, wdata = 249, we = 0, rdata =   0
+              326000 : [MON] addr =  93, wdata = 249, we = 0, rdata =   0
+              326000 : [SCB] addr =  93, wdata = 249, we = 0, rdata =   0
+              326000 : [SCB] READ PASS
+              326000 : [GEN] addr = 250, wdata = 168, we = 1, rdata =   0
+              326000 : [DRV] addr = 250, wdata = 168, we = 1, rdata =   0
+              336000 : [MON] addr = 250, wdata = 168, we = 1, rdata =   0
+              336000 : [SCB] addr = 250, wdata = 168, we = 1, rdata =   0
+              336000 : [SCB] WRITE PASS (addr=250, data=168)
+              336000 : [GEN] addr =  74, wdata = 241, we = 0, rdata =   0
+              336000 : [DRV] addr =  74, wdata = 241, we = 0, rdata =   0
+              346000 : [MON] addr =  74, wdata = 241, we = 0, rdata =   0
+              346000 : [SCB] addr =  74, wdata = 241, we = 0, rdata =   0
+              346000 : [SCB] READ PASS
+              346000 : [GEN] addr = 174, wdata = 252, we = 0, rdata =   0
+              346000 : [DRV] addr = 174, wdata = 252, we = 0, rdata =   0
+              356000 : [MON] addr = 174, wdata = 252, we = 0, rdata =   0
+              356000 : [SCB] addr = 174, wdata = 252, we = 0, rdata =   0
+              356000 : [SCB] READ PASS
+              356000 : [GEN] addr = 219, wdata =  38, we = 1, rdata =   0
+              356000 : [DRV] addr = 219, wdata =  38, we = 1, rdata =   0
+              366000 : [MON] addr = 219, wdata =  38, we = 1, rdata =   0
+              366000 : [SCB] addr = 219, wdata =  38, we = 1, rdata =   0
+              366000 : [SCB] WRITE PASS (addr=219, data= 38)
+              366000 : [GEN] addr = 124, wdata =  40, we = 0, rdata =   0
+              366000 : [DRV] addr = 124, wdata =  40, we = 0, rdata =   0
+              376000 : [MON] addr = 124, wdata =  40, we = 0, rdata =   0
+              376000 : [SCB] addr = 124, wdata =  40, we = 0, rdata =   0
+              376000 : [SCB] READ PASS
+              376000 : [GEN] addr =  36, wdata = 230, we = 0, rdata =   0
+              376000 : [DRV] addr =  36, wdata = 230, we = 0, rdata =   0
+              386000 : [MON] addr =  36, wdata = 230, we = 0, rdata =   0
+              386000 : [SCB] addr =  36, wdata = 230, we = 0, rdata =   0
+              386000 : [SCB] READ PASS
+              386000 : [GEN] addr =  68, wdata = 144, we = 0, rdata =   0
+              386000 : [DRV] addr =  68, wdata = 144, we = 0, rdata =   0
+              396000 : [MON] addr =  68, wdata = 144, we = 0, rdata =   0
+              396000 : [SCB] addr =  68, wdata = 144, we = 0, rdata =   0
+              396000 : [SCB] READ PASS
+              396000 : [GEN] addr = 185, wdata =  71, we = 0, rdata =   0
+              396000 : [DRV] addr = 185, wdata =  71, we = 0, rdata =   0
+              406000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              406000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              406000 : [SCB] READ PASS
+              416000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              416000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              416000 : [SCB] READ PASS
+              426000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              426000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              426000 : [SCB] READ PASS
+              436000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              436000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              436000 : [SCB] READ PASS
+              446000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              446000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              446000 : [SCB] READ PASS
+              456000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              456000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              456000 : [SCB] READ PASS
+              466000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              466000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              466000 : [SCB] READ PASS
+              476000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              476000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              476000 : [SCB] READ PASS
+              486000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              486000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              486000 : [SCB] READ PASS
+              496000 : [MON] addr = 185, wdata =  71, we = 0, rdata =   0
+              496000 : [SCB] addr = 185, wdata =  71, we = 0, rdata =   0
+              496000 : [SCB] READ PASS
+env run task end
+____________________________
+** SRAM IP Verification **
+** total test run num =          49 **
+** pass num =          49 **
+** fail num =           0 **
+*****************************
+$finish called from file "tb_fifo_sv.sv", line 198.
+$finish at simulation time               506000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 506000 ps
+CPU Time:      0.130 seconds;       Data structure size:   0.0Mb
+Thu Jun  4 16:45:25 2026

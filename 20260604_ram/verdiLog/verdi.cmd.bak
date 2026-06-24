@@ -1,0 +1,24 @@
+verdiSetActWin -dock widgetDock_<Message>
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowResize -win $_Verdi_1 "716" "358" "900" "700"
+viaCreateLogViewer
+verdiSetActWin -win $_SmartLog_2
+viaLogViewerOpenLog -file {/home/pedu21/Workspace/20260604_ram/ram.log} -hyperRuleFile {/tools/synopsys/verdi/X-2025.06-1/share/VIA/Apps/PredefinedRules/Generic_rule.rc} -parRuleFile {} -window "$_SmartLog_2"
+verdiDockWidgetSetCurTab -dock windowDock_OneSearch
+verdiDockWidgetSetCurTab -dock widgetDock_<Message>
+verdiSetActWin -dock widgetDock_<Message>
+verdiDockWidgetSetCurTab -dock windowDock_SmartLog_2
+verdiSetActWin -win $_SmartLog_2
+viaLogViewerGoToTime -logID 0 -next -window "$_SmartLog_2"
+viaLogViewerGoToTime -logID 0 -next -window "$_SmartLog_2"
+viaLogViewerGoToTime -logID 0 -next -window "$_SmartLog_2"
+viaLogViewerGoToTime -logID 0 -next -window "$_SmartLog_2"
+viaLogViewerGoToTime -logID 0 -next -window "$_SmartLog_2"
+viaLogViewerGoToTime -logID 0 -next -window "$_SmartLog_2"
+viaLogViewerGoToTime -logID 0 -next -window "$_SmartLog_2"
+viaLogViewerGoToTime -logID 0 -next -window "$_SmartLog_2"
+viaLogViewerGoToTime -logID 0 -next -window "$_SmartLog_2"
+viaLogViewerSetTextWrap -logID 0 -enable -window "$_SmartLog_2"
+viaLogViewerSwitchContext -logID 0 -structView -window "$_SmartLog_2"
+viaLogViewerSetTextWrap -logID 0 -disable -window "$_SmartLog_2"
+viaLogViewerSwitchContext -logID 0 -fileView -window "$_SmartLog_2"

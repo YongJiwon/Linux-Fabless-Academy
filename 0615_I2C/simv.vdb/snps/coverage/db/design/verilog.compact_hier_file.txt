@@ -1,0 +1,5 @@
+I2C_Master_top4070
+\$unit::./rtl/i2c_master.sv::./rtl/i2c_slave.sv...@1353769570 02
+tb_i2c_uvm4070
+uvm_custom_install_recording4070
+uvm_custom_install_verdi_recording4070

@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1781502506.945121466, "rt":6.77, "ut":6.89, "st":0.27}}
+{"vcselab":{"timestamp_begin":1781502513.769723070, "rt":0.18, "ut":0.12, "st":0.04}}
+{"link":{"timestamp_begin":1781502513.983820453, "rt":0.56, "ut":0.45, "st":0.13}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1781502506.534183135}
+{"VCS_COMP_START_TIME": 1781502506.534183135}
+{"VCS_COMP_END_TIME": 1781502514.624990527}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm-1.2 -timescale=1ns/10ps -debug_access+all -kdb -lca -cm line+cond+fsm+tgl+branch+assert +incdir+tb +incdir+trl ./rtl/i2c_master.sv ./rtl/i2c_slave.sv ./tb/tb_i2c_uvm.sv -o simv"}
+{"vcs1": {"peak_mem": 480796}}
+{"vcselab": {"peak_mem": 174952}}

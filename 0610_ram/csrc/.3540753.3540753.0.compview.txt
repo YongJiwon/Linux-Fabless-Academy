@@ -1,0 +1,5 @@
+{"vcs1":{"timestamp_begin":1781054139.933038792, "rt":0.08, "ut":0.03, "st":0.02}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1781054139.531689627}
+{"VCS_COMP_START_TIME": 1781054139.531689627}
+{"VCS_COMP_END_TIME": 1781054140.044431755}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm-1.2 -timescale=1ns/10ps -debug_access+all -kdb -lca ./rtl/ram.sv ./tb/tb_ram.sv -o simv"}

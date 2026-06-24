@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1781504539.508839079, "rt":0.92, "ut":1.00, "st":0.11}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1781504539.066127523}
+{"VCS_COMP_START_TIME": 1781504539.066127523}
+{"VCS_COMP_END_TIME": 1781504540.475852521}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm-1.2 -timescale=1ns/10ps -debug_access+all -kdb -lca -cm line+cond+fsm+tgl+branch+assert +incdir+tb +incdir+trl ./tb/tb_i2c_uvm.sv ./rtl/i2c_master.sv ./rtl/i2c_slave.sv -o simv"}
+{"vcs1": {"peak_mem": 475356}}

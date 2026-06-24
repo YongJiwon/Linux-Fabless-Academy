@@ -1,0 +1,22 @@
+The following flags are unrecognized for coverage and have been saved as 'verdi' debug flags:
+  -colorTheme bright
+Please use Tools->Debug to launch the Verdi debugger with these flags.
+[DVCDT136] 
+Failed to load tests. Details are as the following:
+Load Failed: 
+Error-[UCAPI-DLMA] Design Load Merge Failed
+  The directory 'coverage.vdb/snps/coverage' does not look like a coverage 
+  database. This directory will not be merged.
+  Make sure this is the correct path, and that the directory hasn't been 
+  modified or corrupted.
+[DVCDT136] 
+Failed to load tests. Details are as the following:
+Load Failed: 
+Error-[UCAPI-DLMA] Design Load Merge Failed
+  The directory 'coverage.vdb/snps/coverage' does not look like a coverage 
+  database. This directory will not be merged.
+  Make sure this is the correct path, and that the directory hasn't been 
+  modified or corrupted.
+The designs 'coverage.vdb, coverage.vdb/snps/coverage, simv.vdb' were loaded successfully.
+The following test is loaded from "coverage.vdb, coverage.vdb/snps/coverage, simv.vdb",
+    coverage/sim1

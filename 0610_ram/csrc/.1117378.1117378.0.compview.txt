@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1781074388.538954496, "rt":1.16, "ut":1.24, "st":0.15}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1781074388.078798901}
+{"VCS_COMP_START_TIME": 1781074388.078798901}
+{"VCS_COMP_END_TIME": 1781074389.749978466}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm-1.2 -timescale=1ns/10ps -debug_access+all -kdb -lca -cm line+cond+fsm+tgl+branch+assert +incdir+tb +incdir+trl ./tb/ram_pkg.sv ./rtl/ram.sv ./tb/ram_if.sv ./tb/tb_top.sv -o simv"}
+{"vcs1": {"peak_mem": 477080}}

@@ -1,0 +1,103 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_X-2025.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[SmartLog]
+[SmartLog.Form1]
+[SmartLog.Form1.Tab0]
+File = "/home/pedu21/Workspace/20260604_ram/vcs.log"
+Hyperlink = "/tools/synopsys/verdi/X-2025.06-1/share/VIA/Apps/PredefinedRules/Generic_rule.rc"
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+DeclViewShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /home/pedu21/Workspace/20260604_ram/tb_fifo_sv.fsdb
+syncTime = 0
+viewport = 0 23 2560 1369 0 0 725 1412
+activeNode = "tb_fifo_sv"
+activeScope = "tb_fifo_sv"
+activeFile = "/home/pedu21/Workspace/20260604_ram/tb_fifo_sv.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 210
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 5
+Scope1 = "tb_fifo_sv"
+multipleSelection = 1 204 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "/home/pedu21/Workspace/20260604_ram/tb_fifo_sv.sv" "/home/pedu21/Workspace/20260604_ram/fifo_sv.sv" "/home/pedu21/Workspace/20260604_ram/ram_ip.sv" "-sv" 
+workPath = /home/pedu21/Workspace/20260604_ram
+invokeDir = /home/pedu21/Workspace/20260604_ram
+[hb.sourceTab.1]
+scope = tb_fifo_sv
+File = /home/pedu21/Workspace/20260604_ram/tb_fifo_sv.sv
+Line = 211
+[nMemoryManager]
+WaveformFile = /home/pedu21/Workspace/20260604_ram/tb_fifo_sv.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 11 2560 752 100 65
+primaryWindow = TRUE
+SessionFile = /home/pedu21/Workspace/20260604_ram/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+waveformToolTip = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+displayGridLine = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE
+tPropMask = TRUE

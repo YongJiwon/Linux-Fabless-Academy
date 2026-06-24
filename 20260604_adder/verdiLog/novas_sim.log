@@ -1,0 +1,37 @@
+Invoking simulator...
+Verdi>simv -sml=verdi +fsdb+gate=off -ucli2Proc -ucli
+verdiSetActWin -win $_InteractiveConsole_8
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_7
+verdiSetActWin -win $_nSchema_7
+srcHBSelect "full_adder" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "full_adder" -win $_nTrace1
+srcSetScope "full_adder" -delim "." -win $_nTrace1
+srcHBSelect "full_adder" -win $_nTrace1
+srcHBSelect "full_adder" -win $_nTrace1
+nsMsgSwitchTab -tab general
+debImport "/home/pedu21/Workspace/20260604_adder/cla_16bit.sv" \
+          "/home/pedu21/Workspace/20260604_adder/adder_16bit.sv" \
+          "/home/pedu21/Workspace/20260604_adder/cla_4bit.sv" \
+          "/home/pedu21/Workspace/20260604_adder/full_adder.sv" \
+          "/home/pedu21/Workspace/20260604_adder/half_adder.sv" "-sv" "-vtop" \
+          "/home/pedu21/Workspace/20260604_adder/adder_16bit.sv" -path \
+          {/home/pedu21/Workspace/20260604_adder}
+wvCreateWindow
+verdiSetActWin -win $_nWave9
+schCreateWindow -win $_nSchema1 -hierFlatten
+schCreateWindow -win $_nSchema1 -hierFlatten
+nsMsgSwitchTab -tab general
+debImport "/home/pedu21/Workspace/20260604_adder/cla_16bit.sv" \
+          "/home/pedu21/Workspace/20260604_adder/adder_16bit.sv" \
+          "/home/pedu21/Workspace/20260604_adder/cla_4bit.sv" \
+          "/home/pedu21/Workspace/20260604_adder/full_adder.sv" \
+          "/home/pedu21/Workspace/20260604_adder/half_adder.sv" "-sv" "-vtop" \
+          "/home/pedu21/Workspace/20260604_adder/adder_16bit.sv" -path \
+          {/home/pedu21/Workspace/20260604_adder}
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+verdiSetActWin -win $_InteractiveConsole_8
+verdiDockWidgetSetCurTab -dock windowDock_OneSearch
+verdiSetActWin -win $_OneSearch
+verdiDockWidgetSetCurTab -dock widgetDock_<Message>
+verdiSetActWin -dock widgetDock_<Message>

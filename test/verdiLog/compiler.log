@@ -1,0 +1,18 @@
+*design* DebussyLib (btIdent Verdi_X-2025.06-1)
+Command arguments:
+    +define+verilog
+    /home/pedu21/Workspace/test/d_ff.v
+
+
+*Warning* too many digits in hexadecimal
+"/home/pedu21/Workspace/test/d_ff.v", 10: 
+
+*Error* illegal LHS in procedural assignment
+"/home/pedu21/Workspace/test/d_ff.v", 10: 
+
+*Error* illegal LHS in procedural assignment
+"/home/pedu21/Workspace/test/d_ff.v", 12: 
+Highest level modules:
+d_ff
+
+Total	2 error(s),   1 warning(s)
